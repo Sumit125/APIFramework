@@ -1,0 +1,5 @@
+BaseTest\AddTaskAPI.class
+BaseTest\BasicTest.class
+BaseTest\GetTaskAPI.class
+BaseTest\CreateRequest.class
+BaseTest\DemoTest.class

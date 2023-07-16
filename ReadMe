@@ -1,0 +1,25 @@
+
+There are 3 folder and 2 xml files.
+1) Input:- It contains properties files and Json Files. Properties Files mainly contains the info regarding
+project url and credentials. Json File contains the info about the POST body request. Concept Is files count
+equal to the no of request body. If whole project having 10 request body then we have 10 json files.
+
+2) Src:- It is basically heart of the project . It distribute into sub folder. a) main 2) test
+    a) Main:- Further distribute into 4 sub folder.
+       a.1) apiConfigs:-Contains API Path:- Currently i am thinking i have created java files on the basis of
+       module.Suppose we have 4 module. So i am created 4 files each files conatin routes path of all api
+       which comes under that module.
+       a.2) apiMethodHelper: In which i have created the method helper of method type.
+       a.3) apiVerifications: I have created one java files it contains all basic functions of api verifications.
+       And if requires later we created the seperate java file for each module for API verifications.
+       a.4) utils. It contains three files right now one for Extent Report,FileandEnv and General util function.
+       Later we can also inculde the log4j
+    b) Test: In this folder we created seprate subfolder for each module. And Inside it create the java file
+    belongs to each API wrt to that folder.
+
+3) test-output:- It ExtentReport.html file.
+4) pom.xml: contains all dependency information
+5)TestNG.xml: It contains the information about the test suite.
+
+Note: Right now facing issue this extent report. When i tried to run the complete suite. It is logged only last
+file executed report.
